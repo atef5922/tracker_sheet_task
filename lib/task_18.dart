@@ -46,7 +46,8 @@ class _ProfilePageState extends State<ProfilePage> {
       backgroundImage:
           _imageFile != null
               ? FileImage(_imageFile!)
-              : const AssetImage('assets/images/atef.png') as ImageProvider,
+              : const AssetImage('assets/images/atefsifat.png')
+                  as ImageProvider,
       backgroundColor: Colors.grey.shade300,
       child:
           _imageFile == null
